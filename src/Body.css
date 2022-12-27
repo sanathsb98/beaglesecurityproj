@@ -1,0 +1,267 @@
+.body{
+    /* background-color: azure; */
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+.home_firstcontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home_fc1{
+    /* background-color:rgb(187, 213, 213); */
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_fc2{
+    background-color:rgb(209, 226, 226);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.home_secondcontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home_sc1{
+    /* background-color:rgb(176, 196, 196); */
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_sc2{
+    /* background-color:rgb(172, 190, 190); */
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_thirdcontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home_tc1{
+    /* background-color:rgb(214, 231, 231); */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+
+}
+.home_tc1 :hover{
+    color: rgb(81, 75, 75);
+}
+.home_tc2{
+    /* background-color:rgb(196, 205, 205); */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    
+}
+.home_tc2 :hover{
+    color: rgb(81, 75, 75);
+}
+.home_tc3{
+    /* background-color:rgb(212, 233, 233); */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    
+}
+.home_tc3 :hover{
+    color: rgb(81, 75, 75);
+}
+.home_tc4{
+    /* background-color:rgb(177, 185, 185); */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.home_tc4 :hover{
+    color: rgb(81, 75, 75);
+}
+.home_fourthcontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home_fo1{
+    /* background-color:rgb(176, 196, 196); */
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home_fo2{
+    /* background-color:rgb(182, 207, 207); */
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home_fifthcontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home_fi1{
+    /* background-color:rgb(135, 141, 141); */
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home_fi2{
+    /* background-color:rgb(122, 137, 137); */
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.homesigninform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: azure;
+}
+.form1{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.formoption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.option1{
+    margin-right: 40px;
+}
+.form2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+.form2_left{
+    background-color:white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form2_right{
+    background-color: rgb(93, 114, 250);
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.form2content{
+    margin-left: 40px;
+}
+.formoptionmsg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+  
+}
+.formoptionmsg1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+.formoptionmsgcont{
+    text-align: center;
+}
+.enquirycontent{
+    display: flex;
+    flex-direction: row;
+}
+.ec1{
+    padding: 0px 10px;
+}
+.browsebtn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.msgform_right{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.msgform2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+   
+}
+.msgform2_left{
+   background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 6px;
+}
+.unorderedliststyle{
+    list-style-type: circle;
+    font-size: 30px;
+}
